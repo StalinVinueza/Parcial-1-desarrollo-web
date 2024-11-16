@@ -1,0 +1,51 @@
+.A1{font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 30px;
+   
+
+}
+.A2{font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 30px;
+    
+
+}
+.pica{
+    font-size: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+
+  }
+  
+  .one {
+    flex: 1;
+    justify-content: flex-start;
+  }
+  
+  .two {
+    flex: 1;
+    align-items: center;
+  }
+  
+  .three {
+    flex: 1;
+    align-content: flex-end;
+  }
+ 
+
+  .centrar{
+    display: flex;
+    align-content: center;
+
+  }
+  .carta {
+    width: 350px;           
+    height: 500px;         
+    background:white;        
+    border: 1px solid #000;
+    border-radius: 10px; 
+  }
